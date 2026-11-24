@@ -1,0 +1,9 @@
+                  precision    recall  f1-score   support
+
+   Low Fertility       0.74      0.62      0.68        64
+Medium Fertility       0.74      0.87      0.80       119
+  High Fertility       0.83      0.29      0.43        17
+
+        accuracy                           0.74       200
+       macro avg       0.77      0.60      0.64       200
+    weighted avg       0.75      0.74      0.73       200

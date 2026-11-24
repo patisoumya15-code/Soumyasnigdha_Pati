@@ -1,0 +1,5 @@
+Model,CV_Macro_F1_Mean,CV_Macro_F1_SD,Test_Accuracy,Test_Precision_Macro,Test_Recall_Macro,Test_F1_Macro
+Random Forest,0.7868,0.0173,0.88,0.928,0.7262,0.7739
+SVM,0.7747,0.0341,0.84,0.7963,0.8383,0.8149
+Decision Tree,0.7503,0.0256,0.825,0.7594,0.705,0.7266
+KNN,0.5931,0.0373,0.745,0.7723,0.5977,0.6386

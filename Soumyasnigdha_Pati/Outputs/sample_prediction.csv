@@ -1,0 +1,2 @@
+pH,Electrical_Conductivity_dS_m,Organic_Carbon_g_kg,Available_N_kg_ha,Available_P_kg_ha,Available_K_kg_ha,Sulphur_mg_kg,Zinc_mg_kg,Boron_mg_kg,Iron_mg_kg,Manganese_mg_kg,Copper_mg_kg,predicted_class,actual_class_for_demo_only
+6.17,0.918,8.16,230.85,25.3,198.33,6.39,0.64,0.39,18.4,4.83,0.64,Medium Fertility,Medium Fertility

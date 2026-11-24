@@ -1,0 +1,62 @@
+{
+  "original_rows": 1000,
+  "cleaned_rows": 1000,
+  "columns": 20,
+  "full_duplicate_rows": 0,
+  "duplicate_ids": 0,
+  "missing_values_original": {
+    "Sample_ID": 0,
+    "Source_Calibration": 0,
+    "State": 0,
+    "District": 0,
+    "Soil_Type": 0,
+    "Crop": 0,
+    "pH": 0,
+    "Electrical_Conductivity_dS_m": 0,
+    "Organic_Carbon_g_kg": 0,
+    "Available_N_kg_ha": 0,
+    "Available_P_kg_ha": 0,
+    "Available_K_kg_ha": 0,
+    "Sulphur_mg_kg": 0,
+    "Zinc_mg_kg": 0,
+    "Boron_mg_kg": 0,
+    "Iron_mg_kg": 0,
+    "Manganese_mg_kg": 0,
+    "Copper_mg_kg": 0,
+    "Fertility_Score": 0,
+    "Fertility_Class": 0
+  },
+  "invalid_physical_values": {
+    "pH_outside_0_14": 0,
+    "Electrical_Conductivity_dS_m_negative": 0,
+    "Organic_Carbon_g_kg_negative": 0,
+    "Available_N_kg_ha_negative": 0,
+    "Available_P_kg_ha_negative": 0,
+    "Available_K_kg_ha_negative": 0,
+    "Sulphur_mg_kg_negative": 0,
+    "Zinc_mg_kg_negative": 0,
+    "Boron_mg_kg_negative": 0,
+    "Iron_mg_kg_negative": 0,
+    "Manganese_mg_kg_negative": 0,
+    "Copper_mg_kg_negative": 0
+  },
+  "label_score_mismatches": 0,
+  "class_counts": {
+    "Low Fertility": 319,
+    "Medium Fertility": 596,
+    "High Fertility": 85
+  },
+  "train_rows": 800,
+  "test_rows": 200,
+  "selection_rule": "highest five-fold stratified training CV macro F1",
+  "selected_model": "Random Forest",
+  "top_features": [
+    "Available_K_kg_ha",
+    "Organic_Carbon_g_kg",
+    "Available_N_kg_ha",
+    "Available_P_kg_ha",
+    "Electrical_Conductivity_dS_m"
+  ],
+  "dataset_caution": "Source-calibrated synthetic teaching dataset, not 1,000 laboratory observations",
+  "feature_policy": "All 12 numeric soil measurements; excludes derived Fertility_Score, IDs, location and provenance fields"
+}

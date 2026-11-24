@@ -1,0 +1,21 @@
+attribute,meaning,dtype,missing
+Sample_ID,Unique synthetic sample identifier,object,0
+Source_Calibration,Text describing source calibration/provenance (not a laboratory ID),object,0
+State,Indian state assigned to the sample,object,0
+District,District assigned to the sample,object,0
+Soil_Type,Soil texture/type category,object,0
+Crop,Associated crop category,object,0
+pH,Soil acidity/alkalinity (unitless),float64,0
+Electrical_Conductivity_dS_m,Electrical conductivity / soluble salts (dS/m),float64,0
+Organic_Carbon_g_kg,Organic carbon concentration (g/kg),float64,0
+Available_N_kg_ha,Plant-available nitrogen (kg/ha),float64,0
+Available_P_kg_ha,Plant-available phosphorus (kg/ha),float64,0
+Available_K_kg_ha,Plant-available potassium (kg/ha),float64,0
+Sulphur_mg_kg,Available sulphur (mg/kg),float64,0
+Zinc_mg_kg,Available zinc (mg/kg),float64,0
+Boron_mg_kg,Available boron (mg/kg),float64,0
+Iron_mg_kg,Available iron (mg/kg),float64,0
+Manganese_mg_kg,Available manganese (mg/kg),float64,0
+Copper_mg_kg,Available copper (mg/kg),float64,0
+Fertility_Score,"Derived synthetic continuous score; target leakage, never a model input",float64,0
+Fertility_Class,"Derived three-level label: Low (<40), Medium (40-<70), High (>=70)",object,0

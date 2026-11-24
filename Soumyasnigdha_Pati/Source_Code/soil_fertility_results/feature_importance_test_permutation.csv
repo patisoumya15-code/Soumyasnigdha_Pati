@@ -1,0 +1,13 @@
+feature,importance_mean,importance_sd
+Available_K_kg_ha,0.23636,0.03192
+Organic_Carbon_g_kg,0.21383,0.03458
+Available_N_kg_ha,0.18052,0.03194
+Available_P_kg_ha,0.15721,0.03849
+Electrical_Conductivity_dS_m,0.00481,0.01672
+Zinc_mg_kg,0.00465,0.00504
+Copper_mg_kg,0.00052,0.00468
+Manganese_mg_kg,-0.00023,0.00382
+Iron_mg_kg,-0.00279,0.00606
+Boron_mg_kg,-0.00353,0.00525
+Sulphur_mg_kg,-0.00568,0.00243
+pH,-0.01462,0.0247
